@@ -138,6 +138,10 @@ const messages = {
       vudang: {
         role: 'Developer',
         bio: 'Vu graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.'
+      },
+      annguyen: {
+        role: 'Developer',
+        bio: 'An graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.'
       }
   },
     testimonials: {
@@ -377,6 +381,13 @@ new Vue({
           bio: this.$t('about.dory.bio'),
           image: 'Thuy2.png',
           linkedIn: ''
+        },
+        {
+          name: 'An nguyen',
+          role: this.$t('about.annguyen.role'),
+          bio: this.$t('about.annguyen.bio'),
+          image: 'annguyen.jpeg',
+          linkedIn: 'https://www.linkedin.com/in/will-macfarlane-b289a333/'
         }
 
       ],

@@ -134,6 +134,10 @@ const messages = {
       dory: {
         role: 'Operations Executive',
         bio: 'Sprightly & confident on the outside but caring & warm-hearted on the inside, Dory is always bringing vast amounts of energy to her surroundings. A language enthusiast, Dory speaks and writes impeccable English and is constantly learning new phrases, occasionally contributing to our curse jar along the way.'
+      },
+      vudang: {
+        role: 'Developer',
+        bio: 'Vu graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.'
       }
   },
     testimonials: {
@@ -309,6 +313,13 @@ new Vue({
           role: this.$t('about.vien.role'),
           bio: this.$t('about.vien.bio'),
           image: 'vien_avt.png',
+          linkedIn: 'https://www.linkedin.com/in/will-macfarlane-b289a333/'
+        },
+        {
+          name: 'Vu Dang',
+          role: this.$t('about.vudang.role'),
+          bio: this.$t('about.vudang.bio'),
+          image: 'vudang_avt.jpg',
           linkedIn: 'https://www.linkedin.com/in/will-macfarlane-b289a333/'
         },
         {

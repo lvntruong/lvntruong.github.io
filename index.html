@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>24h.dev - Offshore Web & App Development</title>
+    <meta
+      name="description"
+      content="24h.dev provides world class end-to-end tech solutions at offshore prices."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="keywords"
+      content="Web development,Website development, website design, web dev, app development, offshore app development, cheap app development, cheap app design, offshore web development, fast web development, fast web design, vietnam developers, app developer vietnam, app development vietnam, app development asia, cheapest app development, progressive web app development cheap, react native, react developer, node developer, cheap react developer, cheap react development, development agency, 24h.dev, 24h.dev Tech, tech vietnam, cheap app, offshore app development vietnam, how much does an app cost, price of app, hybrid app development"
+    />
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134553137-1"></script> -->
+    <!-- <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-134553137-1');
+    </script> -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126057856-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126057856-1');
+    </script> -->
+
+    <!-- Google Tag Manager -->
+    <!-- <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NB4KGS3");
+    </script> -->
+    <!-- End Google Tag Manager -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="/favicons/logo2.png" />
+    <meta name="msapplication-TileColor" content="#0c817f" />
+    <meta name="theme-color" contentq="#0c817f" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/main.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+    <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KLZFJFB');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150196093-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-150196093-1');
+    </script>
+
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLZFJFB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    <div id="app">
+      <nav id="nav" class="nav section">
+        <div class="wrapper flex flex--between">
+          <h1 class="nav__title">
+            <a>
+              <img
+                src="assets/img/demo.png"
+                alt="24h.dev"
+                width="192"
+                height="60"
+              />
+            </a>
+          </h1>
+          <a class="nav__burger" @click.prevent="mobileNavShown = true"
+            ><img src="assets/img/Hambrger-icon@2x.png" alt="menu"
+          /></a>
+          <ul class="nav-list flex">
+            <li
+              class="nav-list__item"
+              v-for="(item, index) in navigation"
+              :key="index"
+            >
+              <a
+                :href="item.link"
+                @click="smoothScroll($event, item.link)"
+                :target="item.target"
+                >{{ item.title }}</a
+              >
+            </li>
+            <!-- <li class="nav-list__item flag">
+              <a>
+                <img
+                  v-if="localStorage.getItem('locale') == 'en'"
+                  @click="toggleLanguage"
+                  src="/assets/img/flags-vn@2x.png"
+                  alt="Switch to Vietnamese"
+                />
+                <img
+                  v-else
+                  @click="toggleLanguage"
+                  src="/assets/img/flags-gb@2x.png"
+                  alt="Switch to English"
+                />
+              </a>
+            </li> -->
+          </ul>
+        </div>
+        <transition name="fade">
+          <div class="side-nav mobile" v-show="mobileNavShown">
+            <div class="side-nav__bg"></div>
+            <div class="side-nav-menu">
+              <div class="side-nav__cross" @click="mobileNavShown = false">
+                <img src="/assets/img/icon-cross@2x.png" alt="close" />
+              </div>
+              <ul>
+                <li
+                  class="nav-list__item"
+                  v-for="(item, index) in navigation"
+                  :key="index"
+                >
+                  <a
+                    :href="item.link"
+                    @click="smoothScroll($event, item.link)"
+                    >{{ item.title }}</a
+                  >
+                </li>
+                <li class="nav-list__item flag">
+                  <a>
+                    <img
+                      v-if="localStorage.getItem('locale') == 'en'"
+                      @click="toggleLanguage"
+                      src="/assets/img/flags-vn@2x.png"
+                      alt="Switch to Vietnamese"
+                    />
+                    <img
+                      v-else
+                      @click="toggleLanguage"
+                      src="/assets/img/flags-gb@2x.png"
+                      alt="Switch to English"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </transition>
+      </nav>
+
+      <section id="home" class="hero section">
+        <canvas id="animated-grid" class="hero__canvas"></canvas>
+        <div class="hero__canvas pattern-mask"></div>
+        <img
+          class="hero__logo"
+          src="assets/img/demo.png"
+          width="160"
+          height="225"
+          alt="24h.dev logo"
+        />
+        <h2 class="hero__title title">{{ $t("hero.title") }}</h2>
+        <p class="hero__copy">{{ $t("hero.subtitle") }}</p>
+        <a
+          href="#contact"
+          class="hero__button button"
+          @click="smoothScroll($event, '#contact')"
+          >{{ $t("hero.quote") }}</a
+        >
+      </section>
+
+      <section id="services" class="services section">
+        <div class="wrapper">
+          <h2 class="title title--section title--green">
+            {{ $t("services.title") }}
+          </h2>
+          <p class="subtitle subtitle--section">{{ $t("services.body") }}</p>
+
+          <div id="services-switcher" class="services-switcher">
+            <div
+              class="service-box mobile"
+              v-for="(service, index) in services"
+              :key="index"
+            >
+              <h3 class="title service-box__title">
+                {{ service.title }}
+              </h3>
+              <img
+                class="service__icon"
+                :src="'assets/img/services/' + service.icon"
+                :alt="service.title"
+              />
+              <p>{{ service.description }}</p>
+            </div>
+            <div class="js-dynamic-height">
+              <div class="service-box service-box--desktop desktop">
+                <div class="service-box-switcher">
+                  <ul>
+                    <li
+                      class="service-box-switcher__item"
+                      v-for="(service, index) in services"
+                      :key="index"
+                      @click="selectedService = index"
+                    >
+                      <span
+                        :class="{ active: (selectedService == index) }"
+                      ></span
+                      >{{ service.title }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="service-box-details">
+                  <img
+                    class="service__icon"
+                    :src="'assets/img/services/' + services[selectedService].icon"
+                    :alt="services[selectedService].title"
+                  />
+                  <p>{{ services[selectedService].description }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="work section">
+        <div class="wrapper">
+          <h2 class="title title--section">{{ $t("work.title") }}</h2>
+          <p class="subtitle subtitle--section">{{ $t("work.body") }}</p>
+          <div id="jobs">
+            <div class="job">
+              <div class="js-job-image animated job__image">
+                <img
+                  v-for="(job, index) in jobs"
+                  :key="index"
+                  v-show="selectedJob == index"
+                  :src="'assets/img/work/' + job.image"
+                  width="810"
+                  height="590"
+                  :alt="jobs.title"
+                />
+              </div>
+              <div class="job-details">
+                <div>
+                  <h3 class="job-details__title title title--green">
+                    {{ jobs[selectedJob].title }}
+                  </h3>
+                  <p
+                    class="job-details__description"
+                    v-html="jobs[selectedJob].description"
+                  ></p>
+                  <a
+                    class="job-details__link link"
+                    :href="jobs[selectedJob].link"
+                    >{{ $t("work.website") }}</a
+                  >
+                </div>
+                <div class="jobs-progress">
+                  <div class="flex flex--between">
+                    <span>{{ selectedJob + 1 }}/{{ jobs.length }}</span>
+                    <span class="arrows">
+                      <button
+                        class="arrow--back"
+                        :disabled="selectedJob == 0"
+                        @click.prevent="previousJob"
+                      >
+                        <img
+                          class="arrow"
+                          src="assets/img/icon-arrow.svg"
+                          alt=""
+                        />
+                      </button>
+                      <button
+                        :disabled="selectedJob == (jobs.length - 1)"
+                        @click.prevent="nextJob"
+                      >
+                        <img
+                          class="arrow"
+                          src="assets/img/icon-arrow.svg"
+                          alt=""
+                        />
+                      </button>
+                    </span>
+                  </div>
+                  <div class="jobs-progress__bar">
+                    <div :style="{ width: progressPercentage + '%' }"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="wrapper">
+          <h2 class="title title--section title--green">
+            {{ $t("about.title") }}
+          </h2>
+          <p class="subtitle subtitle--section about__subtitle">
+            {{ $t("about.body") }}
+          </p>
+          <div id="team" class="team">
+            <div class="person" v-for="(person, index) in team" :key="index">
+              <div class="person-image">
+                <img
+                  class="person-image__img"
+                  :src="'assets/img/team/' + person.image"
+                  :alt="person.name"
+                />
+                <div class="person-image__bg"></div>
+                <a
+                  class="person-image__linked-in"
+                  :href="person.linkedIn"
+                  target="_blank"
+                  ><img
+                    src="/assets/img/icon-linkedIn@2x.png"
+                    width="18"
+                    height="18"
+                    alt="LinkedIn Profile"
+                /></a>
+              </div>
+              <div class="title title--green person__name">
+                {{ person.name }}
+              </div>
+              <div class="person__role">{{ person.role }}</div>
+              <div class="person__bio">{{ person.bio }}</div>
+              <button
+                class="person__expand-btn mobile"
+                @click="expandBio(index)"
+              >
+                <span class="more">{{ $t("app.readMore") }}</span
+                ><span class="less">{{ $t("app.less") }}</span>
+              </button>
+            </div>
+          </div>
+          <div class="js-dynamic-height" style="align-items: center">
+            <div id="testimonials" class="testimonials">
+              <h2 class="testimonials__title title title--section title--green">
+                {{ $t("testimonials.title") }}
+              </h2>
+              <div class="testimonial">
+                <div class="testimonial__body">
+                  {{ testimonials[selectedTestimonial].body }}
+                </div>
+                <div class="testimonial__client">
+                  {{ testimonials[selectedTestimonial].client }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="wrapper">
+          <h2 class="title--section">{{ $t("quote.title") }}</h2>
+          <p class="contact__subtitle subtitle subtitle--section">
+            {{ $t("quote.body") }}
+          </p>
+          <form
+            class="contact-form"
+            action="mail.php"
+            method="post"
+            @submit.prevent="submitForm"
+            autocomplete="off"
+          >
+            <label class="hide" for="name">{{ $t("quote.fullName") }}</label>
+            <input
+              class="input"
+              type="text"
+              name="name"
+              :placeholder="$t('quote.fullName')"
+              v-model="message.name"
+              required
+            />
+
+            <label class="hide" for="email">{{ $t("quote.email") }}</label>
+            <input
+              class="input"
+              type="email"
+              name="email"
+              :placeholder="$t('quote.email')"
+              v-model="message.email"
+              required
+            />
+
+            <label class="hide" for="phone">{{ $t("quote.phone") }}</label>
+            <input
+              class="input"
+              type="tel"
+              name="phone"
+              :placeholder="$t('quote.phone')"
+              v-model="message.phone"
+            />
+
+            <label class="hide" for="message">{{ $t("quote.message") }}</label>
+            <textarea
+              class="input"
+              name="message"
+              :placeholder="$t('quote.message')"
+              rows="5"
+              v-model="message.body"
+              required
+            ></textarea>
+
+            <div
+              class="g-recaptcha"
+              data-sitekey="6LdogJMUAAAAAIJwlsUMnlp-Zs617-JvoDTlWsQn"
+            ></div>
+
+            <p class="errorcaptcha" style="display: none; margin-top: 10px;">
+              Please check this captcha
+            </p>
+
+            <div
+              class="contact-form__loader loader"
+              v-if="isSending"
+              style="margin-top: 10px;"
+            ></div>
+
+            <div
+              class="contact-form__response"
+              v-if="contactFormResponse"
+              style="margin-top: 20px;"
+            >
+              {{ contactFormResponse }}
+            </div>
+
+            <button class="button button--center" style="margin-top: 30px;">
+              {{ $t("quote.send") }}
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer section">
+        <ul class="contact-info">
+          <li class="contact-info__item">
+            {{ $t("footer.phone") }}:
+            <a href="tel:(84)905836218">(+84) 385 928 019</a>
+          </li>
+          <span class="mobile-hide">• </span>
+          <li class="contact-info__item">
+            {{ $t("footer.email") }}:
+            <a href="mailto:contact@24h.dev">contact@24h.dev</a>
+          </li>
+          <span class="mobile-hide">• </span>
+          <li class="contact-info__item">
+            {{ $t("footer.website") }}:
+            <a href="https://24h.dev">24h.dev</a>
+          </li>
+        </ul>
+        <div class="footer__copyright">{{ $t("footer.copyright") }}</div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/animated-grid.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="app.js"></script>
+  </body>
+
+  <!--Start of Tawk.to Script-->
+  <!-- <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function() {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/5c2c567d7a79fc1bddf2e944/default";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script> -->
+  <!--End of Tawk.to Script-->
+</html>

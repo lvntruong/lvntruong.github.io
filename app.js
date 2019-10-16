@@ -91,7 +91,7 @@ const messages = {
         role: 'Head of Design',
         bio: 'Winner of the best logo design in Vietnam, Sao has worked with global brands, including Air Asia, designing websites and apps. A true artist, Sao has his own personal logo tattooed onto his arm, embroided on his wallet and even stamped on the back of his bike helmet! Sao loves steak and Arsenal FC.'
       },
-       hai: {
+       vien: {
         role: 'Head of Development',
         bio: 'Hai runs our ever-growing team of 15 developers across two offices in Da Nang and has over 10 years of web and app development and software engineer management to his name. He thoroughly enjoys interacting with clients and ensuring they\'re nothing but delighted with the outcome of their projects.'
       },
@@ -156,126 +156,6 @@ const messages = {
     }
   },
   vn: {
-    app: {
-      readMore: 'Đọc Thêm',
-      less: 'Thu Gọn'
-    },
-    hero: {
-      title: 'Từ ý tưởng cho đến hiện thực',
-      subtitle: 'Chúng tôi biến những ý tưởng thành hiện thực và trở thành bệ phóng vững chắc cho doanh nghiệp của bạn.',
-      quote: 'Liên lạc với chúng tôi'
-    },
-    nav: {
-      home: 'Trang Chủ',
-      services: 'Dịch Vụ',
-      work: 'Sản Phẩm',
-      about: 'Thông Tin',
-      blog: 'Blog',
-      contact: 'Liên Hệ'
-    },
-    services: {
-      title: 'Dịch Vụ',
-      body: 'Khác biệt với tất cả các công ty Công Nghệ truyền thống, chúng tôi là một đội ngũ phá cách và cam kết mang lại cho bạn những dịch vụ đặc biệt, vượt mong đợi, và quan trọng hơn hết chúng tôi mang lại doanh thu từ chính ý tưởng của bạn.',
-      appDev: {
-        title: 'Thiết kế Ứng dụng',
-        body: 'Ứng dụng điện thoại và ứng dụng Web là hai thế mạnh vượt trội của 24h.dev. Với chuyên môn và kinh nghiệm nhiều năm sử dụng React Native, Node.js, Swift và Android, chúng tôi tự tin trong việc xây dựng, thiết kế và tích hợp những tính năng tiên tiến bậc nhất cho sản phẩm của bạn. 24h.dev luôn sẵn sàng xây dựng mô hình mẫu giúp mang đến cho bạn một khởi đầu thuận lợi hơn.'
-      },
-      webDev: {
-        title: 'Thiết kế web',
-        body: 'Bạn cần một trang web? Chúng tôi luôn sẵn sàng đáp ứng yêu cầu của bạn và sẽ cung cấp cho bạn một website đã được Tối ưu hóa tìm kiếm bằng cách sử dụng HTML, CSS, Javascript và Jquery. Và nếu bạn muốn kiểm sát thông tin, nội dung của mình? Chúng tôi sẵn lòng xây dựng một website tươi mới sử dụng Wordpress mà bạn có thể chỉnh sửa tùy ý một cách dễ dàng mà không cần hiểu biết tí nào về code.'
-      },
-      consulting: {
-        title: 'Tư vấn',
-        body: 'Là những nhà khởi nghiệp đến từ châu  u với hơn 30 năm kinh nghiệm tổng hợp, chúng tôi tự tin cung cấp những giải pháp tư vấn mang tính chiến lược và giúp doanh nghiệp của bạn phát triển vượt trội.'
-      },
-      investment: {
-        title: 'Thu hút đầu tư',
-        body: 'Với bề dày thành tích trong lĩnh vực gọi vốn đầu tư, 24h.dev sẽ giúp bạn xây dựng những pitch decks với tiêu chuẩn Quốc tế, khẳng định thương hiệu của bạn với thiết kế thu hút và nội dụng súc tích.'
-      },
-      design: {
-        title: 'Thiết kế đồ họa',
-        body: 'Chúng tôi có thể thiết kế cho bạn mọi thứ mà bạn muốn. Cần một mô hình mẫu? Một logo? Một website hay những thứ đơn giản như tờ rơi, thực đơn nhà hàng? Chúng tôi sẵn sàng cung cấp những sản phẩm chất lượng đạt tiêu chuẩn phương Tây với mức giá phù hợp.'
-      }
-    },
-    work: {
-      title: 'Những sản phẩm của chúng tôi',
-      body: 'Với niềm đam mê mang lại những sản phẩm chuyên nghiệp cho khách hàng, dưới đây là một số đối tác của 24h.dev. Liên hệ ngay để nhận báo giá.',
-      website: 'Website',
-      beautizon: {
-        title: 'Beautizon',
-        bodyHTML: '<p>12121Beautizon là công ty Việt Nam có trụ sở tại Thành phố Hồ Chí Minh, chuyên nhập khẩu và phân phối sản phẩm chăm sóc da chất lượng từ Úc và New Zealand.</p> <p>Tham gia với tư cách tư vấn và xây dựng thương hiệu. 24h.dev xây dựng bộ chuẩn thương hiệu bao gồm thiết kế Logo và xây dựng Website cho phép quản trị viên dễ dàng điều chỉnh và tối ưu hóa website của họ</p>'
-      },
-      secretGarden: {
-          title: 'The Secret Garden',
-          bodyHTML: '<p>Tọa lạc ngày trong lòng thành phố Đà Nẵng, The Secret Garden là nơi cộng hưởng giữa quầy bar, coffee và những căn phòng nghỉ dưỡng xinh xắn. Được lấy cảm hứng từ phong cách của Nhật Bản, hầu hết các căn phòng đều lan tỏa không khí mát dịu bởi sự bố trí của những chiếc nệm truyền thống Nhật Bản và tính chất giữ nhiệt của những mảng tường bê tông.</p>'
-      },
-      boobytrapp: {
-        title: 'Boobytrapp',
-        bodyHTML: '<p>Boobytrapp là phần mềm điện thoại giúp kết nối những bệnh nhân ung thư vú trên toàn thế giới và giúp đỡ họ giảm bớt gánh nặng trong việc chữa trị thông qua những tính năng sáng tạo mang tính động viên.</p> <p>24h.dev đã bắt đầu từ việc thiết kế bản nháp, hoàn thiện bản mẫu cho đến xây dựng ứng dụng điện thoại (trên cả iOS và Android) và trang web hoàn chỉnh cho Boobytrapp.</p>'
-      },
-      oliviasPrime: {
-          title: 'Olivia\'s Prime Steakhouse',
-          bodyHTML: 'Olivia\'s Prime Steakhouse - một trong những nhà hàng bít tết nổi tiếng nằm ngay trung tâm thành phố Đà Nẵng. Nhà hàng luôn luôn mang đến những hương vị hấp dẫn bởi những miếng thịt bò hảo hạng từ phương Tây và những món ăn khác không kém phần đặc sắc. Bên cạnh đó, Olivia được sở hữu bởi một đại gia đình, vì thế Olivia thấu hiểu và đã tạo ra một bầu không khí ấm cúng trong từng bữa ăn, giúp bạn có cảm giác như ở chính căn nhà của mình'
-      },
-      phoenix: {
-        title: 'Phoenix Consult',
-        bodyHTML: '<p>Phoenix Consult là công ty công nghệ đến từ Singapore làm việc trong lĩnh vực phần mềm và dịch vụ tư vấn về Startup.</p> <p>24h.dev đã thiết kế bộ thương hiệu và xây dựng website với ngân sách phù hợp.</p>'
-      },
-      himalayan: {
-        title: 'Himalayan Salt Co.',
-        bodyHTML: '<p>Himalayan là công ty có trụ sở ở Anh Quốc, kinh doanh muối tảng đặc biệt được nhập khẩu từ Himalaya phục vụ cho việc nấu nướng trong nhà hàng.</p> <p>24h.dev đã thiết kế mọi thứ từ logo, thương hiệu, mẫu mã đóng gói cho đến website cho Himalayan và tư vấn về chiến lược phát triển kinh doanh.'
-      },
-      anBang: {
-        title: 'An Bang Beachside Resort',
-        bodyHTML: '<p>An Bang Beachside Boutique Resort là một khách sạn sang trọng tại vị ở vùng biển miền Trung Việt Nam.</p> <p>24h.dev đã thiết kế và phát triển website của Beachside và tích hợp hệ thống đặt phòng trực tuyến vào trong trang web của họ.</p>'
-      }
-    },
-    about: {
-      title: 'Về chúng tôi',
-      body: 'Thành lập từ 2018, 24h.dev được dẫn dắt bởi đội ngũ lãnh đạo có bề dày thành tích cấp cao từ các công ty khởi nghiệp tại Anh Quốc. Đặt trụ sở ở Đà Nẵng và London, chúng tôi hân hạnh được trở thành người đồng hành tin cậy giúp các bạn biến ý tưởng thành hiện thực, bằng việc mang lại nguồn thu cho doanh nghiệp. Dưới đây là một số thành viên chủ chốt của 24h.dev:',
-      will: {
-        role: 'Founder, CEO',
-        bio: 'Đồng sáng lập của Boobytrapp và trước đây là giám đốc vận hành của Rota -một công ty lớn mạnh ở London. Will có hơn 10 năm kinh nghiệm trong lĩnh vực quản lý công nghệ và quản lý khách sạn, phải kể đến như Onefinestay, The Four Seasons, Itsu và The Capital Hotel trước khi rời London để đến với Việt Nam. Là một người đam mê về ẩm thực, Will đã từng thử thách bản thân trở thành 1 đầu bếp cho đến khi nhận ra: Không ai tin một đầu bếp gầy cả.'
-      },
-      hai: {
-        role: 'General Manager',
-        bio: 'Đến từ Úc và tốt nghiệp trong ngành Quản Lý Doanh Nghiệp, có hơn 7 năm kinh nghiệm làm việc với những Resort 5 sao, nhà hàng khách sạn cao cấp ở Úc và Anh Quốc. Và thật may mắn rằng, Simone đã quyết định thử thách bản thân trong lĩnh vực công nghệ, khởi đầu với 24h.dev.'
-      },
-      craig: {
-        role: 'Blockchain Advisor',
-        bio: 'Đến từ bờ biển vàng nước Úc, Craig mang nhiều kinh nghiệm trong lĩnh vực Blockchain. Cùng vời chứng chỉ trong lĩnh vực khoa học, môi trường và kinh nghiệm tổ chức những dự án cộng đồng, Craig đã có sự kết hợp tuyệt vời giữa nhiều lĩnh vực và mang lại những dự án vô cùng hữu ích cho xã hội.'
-      },
-      joshua: {
-        role: 'Account Manager',
-        bio: 'Sinh ra và lớn lên ở London, Joshua sử dụng thành thạo Vue.js, Shopify, Wordpress, Html/CSS và Javascript. Như một con người du mục trong cuộc sống kỹ thuật số hiện đại, Joshua đã gia nhập với chúng tôi khi di chuyển từ Việt Nam đến Nhật Bản.'
-      },
-      duyen: {
-        role: 'Operations Manager',
-        bio: 'Với kinh nghiệm làm việc với Cốc Cốc (một web browser của Việt Nam), Duyên có sự khéo léo nhẹ nhàng đậm chất Việt Nam trong viêc thương lượng đàm phán. Duyên cũng từng là Nhà Vô Địch Bóng bàn trước khi gia nhập thế giới công nghệ.'
-      },
-      sao: {
-        role: 'Lead Designer',
-        bio: 'Là nhà vô địch cuộc thi thiết kế Logo tại Việt Nam, Sao đã làm việc với các thương hiệu lớn trên toàn thế giới trong lĩnh vực thiết kế trang web và ứng dụng. Là một nghệ sĩ thực thụ, Sao có hẳn một logo của bản thân trên cánh tay, thêu trên ví và dán trên Mũ Bảo Hiểm của chính mình! Sao rất thích bít tết và CLB Bóng đá Arsenal.'
-      }
-    },
-    testimonials: {
-      title: 'Testimonials'
-    },
-    quote: {
-      title: 'Liên hệ với chúng tôi',
-      body: 'Hứng thú với dịch vụ của 24h.dev? Hãy để lại thông tin của ban hoặc gọi ngay cho chúng tôi từ ngay hôm nay, chúng tôi sẵn sàng được nghe và thảo luận về dự án của bạn.',
-      fullName: 'Họ Và Tên',
-      email: 'Email',
-      phone: 'Số điện thoại',
-      message: 'Tin nhắn của bạn',
-      send: 'Xác Nhận'
-    },
-    footer: {
-      phone: 'Phone',
-      email: 'Email',
-      website: 'Website',
-      copyright: '© 24h.dev 2019. All Rights Reserved.'
-    }
   }
 }
 
@@ -314,16 +194,16 @@ new Vue({
         link: '#about',
         target: '_self'
       },
-      {
-        title: this.$t('nav.blog'),
-        link: 'https://medium.com/@24h.devtech',
-        target: '_blank'
-      },
-      {
-        title: this.$t('nav.qcp'),
-        link: 'https://medium.com/@24h.devtech/fighting-agent-orange-today-a106f559382e',
-        target: '_blank'
-      },
+      // {
+      //   title: this.$t('nav.blog'),
+      //   link: 'https://medium.com/@24h.devtech',
+      //   target: '_blank'
+      // },
+      // {
+      //   title: this.$t('nav.qcp'),
+      //   link: 'https://medium.com/@24h.devtech/fighting-agent-orange-today-a106f559382e',
+      //   target: '_blank'
+      // },
       {
         title: this.$t('nav.contact'),
         link: '#contact',
@@ -404,7 +284,7 @@ new Vue({
       ],
       team: [
         {
-          name: 'Will Macfarlane',
+          name: 'Luong Vien',
           role: this.$t('about.will.role'),
           bio: this.$t('about.will.bio'),
           image: 'will@2x.jpg',
@@ -426,10 +306,10 @@ new Vue({
         },
         {
           name: 'Luong Vien',
-          role: this.$t('about.hai.role'),
-          bio: this.$t('about.hai.bio'),
+          role: this.$t('about.vien.role'),
+          bio: this.$t('about.vien.bio'),
           image: 'vien_avt.png',
-          linkedIn: ''
+          linkedIn: 'https://www.linkedin.com/in/will-macfarlane-b289a333/'
         },
         {
           name: 'Sao Nguyen',

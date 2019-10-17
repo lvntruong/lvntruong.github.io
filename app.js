@@ -91,9 +91,9 @@ const messages = {
         role: 'Head of Design',
         bio: 'Winner of the best logo design in Vietnam, Sao has worked with global brands, including Air Asia, designing websites and apps. A true artist, Sao has his own personal logo tattooed onto his arm, embroided on his wallet and even stamped on the back of his bike helmet! Sao loves steak and Arsenal FC.'
       },
-       vien: {
+      vien: {
         role: 'Head of Development',
-        bio: 'Hai runs our ever-growing team of 15 developers across two offices in Da Nang and has over 10 years of web and app development and software engineer management to his name. He thoroughly enjoys interacting with clients and ensuring they\'re nothing but delighted with the outcome of their projects.'
+        bio: 'Vien runs our ever-growing team of 15 developers across two offices in Da Nang and has over 10 years of web and app development and software engineer management to his name. He thoroughly enjoys interacting with clients and ensuring they\'re nothing but delighted with the outcome of their projects.'
       },
       nghi: {
         role: 'Project Manager',
@@ -111,9 +111,9 @@ const messages = {
         role: 'Operations Manager',
         bio: 'Duyen gained experience working for CocCoc (a Vietnamese web browser) and exudes all the passion of Vietnamese negotiation, without the aggression! Duyen was a national table tennis champion before joining the tech world.'
       },
-      hoang: {
+      nhattruong: {
         role: 'CTO',
-        bio: 'Hoang boasts 15 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player. Apparently. A master at explaining immensely complexed concepts in Layman\'s terms, you\'ll rarely see Hoang in a meeting without a board marker in his hand, ferociously drawing diagrams and stick men. '
+        bio: 'Truong boasts 8 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player.'
       },
       thuy: {
         role: 'Sales Executive',
@@ -306,11 +306,11 @@ new Vue({
           linkedIn: 'https://www.linkedin.com/in/stella-sevegran-61b6a4a5/'
         },
         {
-          name: 'Hoang Vo',
-          role: this.$t('about.hoang.role'),
-          bio: this.$t('about.hoang.bio'),
-          image: 'Hoang.png',
-          linkedIn: ''
+          name: 'Nhat Truong',
+          role: this.$t('about.nhattruong.role'),
+          bio: this.$t('about.nhattruong.bio'),
+          image: 'truong.jpeg',
+          linkedIn: 'https://www.linkedin.com/in/truongtroy/'
         },
         {
           name: 'Luong Vien',

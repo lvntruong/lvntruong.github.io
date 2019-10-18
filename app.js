@@ -142,6 +142,10 @@ const messages = {
       annguyen: {
         role: 'Developer',
         bio: 'An graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.'
+      },
+      minhnguyet: {
+        role: 'Developer',
+        bio: 'An undergradute student at Da Nang University of Science and Technology, majoring in IT. She\'s a newbie in software development, a little of ReactJS, NodeJs, Apollo GraphQl, Typescript, etc, but with her disire to learn all new things, she\'s a talent candidate to be your partner. Btw she loves travel and charity works.'
       }
   },
     testimonials: {
@@ -388,6 +392,13 @@ new Vue({
           bio: this.$t('about.annguyen.bio'),
           image: 'annguyen.jpeg',
           linkedIn: 'https://www.linkedin.com/in/will-macfarlane-b289a333/'
+        },
+        {
+          name: 'Minh Nguyet',
+          role: this.$t('about.minhnguyet.role'),
+          bio: this.$t('about.minhnguyet.bio'),
+          image: 'minhnguyet.jpeg',
+          linkedIn: 'https://www.linkedin.com/in/annie-tiny-032723170/'
         }
 
       ],

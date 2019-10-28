@@ -117,12 +117,27 @@ const messages = {
       minhnguyet: {
         role: "Developer",
         bio:
-          "An undergradute student at Da Nang University of Science and Technology, majoring in IT. She's a newbie in software development, a little of ReactJS, NodeJs, Apollo GraphQl, Typescript, etc, but with her disire to learn all new things, she's a talent candidate to be your partner. Btw she loves travel and charity works."
+          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. She's a newbie in software development, a little of ReactJS, NodeJs, Apollo GraphQl, Typescript, etc, but with her disire to learn all new things, she's a talent candidate to be your partner. Btw she loves travel and charity works."
       },
       haule: {
         role: "Developer",
         bio:
-          "An graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... An is a sociable, open-minded, eager to learn new things."
+          "Hau graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things."
+      },
+      quangtran: {
+        role: "Developer",
+        bio:
+          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He has 1 year of experience in ReactJs, NodeJs. He's so talent, he can learn new things quickly,... You will enjoy working with him!"
+      },
+      hongquan: {
+        role: "Developer",
+        bio:
+          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He's a newbie in software development, a little of ReactJS, NodeJs, etc, but he can learn quickly,... You will enjoy working with him!"
+      },
+      vunguyen: {
+        role: "Developer",
+        bio:
+          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things"
       }
     },
     testimonials: {
@@ -314,7 +329,7 @@ new Vue({
           name: "Quang Tran",
           role: this.$t("about.quangtran.role"),
           bio: this.$t("about.quangtran.bio"),
-          image: "avatar.png",
+          image: "quangtran.jpg",
           linkedIn: ""
         },
         {
@@ -328,7 +343,7 @@ new Vue({
           name: "Vu Nguyen",
           role: this.$t("about.vunguyen.role"),
           bio: this.$t("about.vunguyen.bio"),
-          image: "avatar.png",
+          image: "vunguyen.png",
           linkedIn: ""
         },
         {
@@ -343,18 +358,8 @@ new Vue({
       testimonials: [
         {
           body:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget tortor sit amet augue imperdiet placerat. Sed vulputate consequat nulla et sollicitudin. Vivamus vel enim eu justo congue sollicitudin ac sed risus. Curabitur a orci vel ipsum ultricies rhoncus auctor sed sem. Curabitur vel accumsan lacus. ",
-          client: "Anthony Stoddart, Director - ABC."
-        },
-        {
-          body:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget tortor sit amet augue imperdiet placerat. Sed vulputate consequat nulla et sollicitudin. Vivamus vel enim eu justo congue sollicitudin ac sed risus. Curabitur a orci vel ipsum ultricies rhoncus auctor sed sem. Curabitur vel accumsan lacus. ",
-          client: "Duncan Kelso, CEO - ABC."
-        },
-        {
-          body:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget tortor sit amet augue imperdiet placerat. Sed vulputate consequat nulla et sollicitudin. Vivamus vel enim eu justo congue sollicitudin ac sed risus. Curabitur a orci vel ipsum ultricies rhoncus auctor sed sem. Curabitur vel accumsan lacus. ",
-          client: "Paul M Dodd, Founder - ABC."
+            "This was my second contract with 24hdev and it went as well as the first. 24hdev is an excellent company to work with by any metric. All the good things from the first project were present here as well, but one thing I want to call out specifically is their commitment to continuous quality improvements. Each time they touches the code they leaves it a little better than they found it. Will absolutely be working with 24hdev again on future projects.",
+          client: "Nicholas Shirley, CEO - DealSheetBoard."
         }
       ],
       contactFormResponse: null,

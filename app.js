@@ -58,6 +58,31 @@ const messages = {
         title: "Clascity",
         bodyHTML:
           "<p>Search and connect with tutors from across the web. In just a few clicks, you will be learning from the best teachers and gurus out there.</p>"
+      },
+      autopulse: {
+        title: "Autopulse",
+        bodyHTML:
+          "<p>Never search for a vehicle the same way again</p>"
+      },
+      a3p: {
+        title: "Antarcticn",
+        bodyHTML:
+          "<p>Equipped with company analysis, portfolio management, fund and portfolio reporting and search tools along with a comprehensive database</p>"
+      },
+      wiggle: {
+        title: "Wiggle",
+        bodyHTML:
+          "<p>Equipped with company analysis, portfolio management, fund and portfolio reporting and search tools along with a comprehensive database</p>"
+      },
+      crowdskills: {
+        title: "Crowdskills",
+        bodyHTML:
+          "<p>Meet with local experts in web and digital services. An affordable way to hire local professionals to get the job done properly.</p>"
+      },
+      axiomzen: {
+        title: "Axiomzen",
+        bodyHTML:
+          "<p>Axiom Zen is an innovation studio. We build products and teams that power successful businesses.</p>"
       }
     },
     about: {
@@ -65,7 +90,7 @@ const messages = {
       body:
         "Founded in 2018, 24h.dev is run by entrepreneurs with proven track records at C-level positions in successful tech startups. Based in Da Nang, with a growing team of over 15 developers, we’re delighted to be your guide from that Eureka moment to the reality of your new product. Meet just a few of the many key members of the team below:",
       vien: {
-        role: "Founder, CEO",
+        role: "Co-Founder, CEO",
         bio:
           "Vien runs our ever-growing team of 15 developers in Da Nang and has over 5 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects."
       },
@@ -75,9 +100,9 @@ const messages = {
           "Thuy is a HR Admin of company. She always helps the company find the best and most suitable employees for the company and solves administrative procedures. She also helps with testing a few projects as needed."
       },
       nhattruong: {
-        role: "Founder, CTO",
+        role: "Co-Founder, CTO",
         bio:
-          "Truong boasts 8 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player."
+          "Truong boasts 5 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player."
       },
       vudang: {
         role: "Developer",
@@ -210,6 +235,36 @@ new Vue({
           description: this.$t("work.clascity.bodyHTML"),
           link: "https://clascity.com",
           image: "clascity.png"
+        },
+        {
+          title: this.$t("work.autopulse.title"),
+          description: this.$t("work.autopulse.bodyHTML"),
+          link: "https://autopulse.ca",
+          image: "autopulse.png"
+        },
+        {
+          title: this.$t("work.a3p.title"),
+          description: this.$t("work.a3p.bodyHTML"),
+          link: "https://analytis-public-files.s3.eu-west-2.amazonaws.com/AAAP+Select+-+Main+Timeline+v2.mp4",
+          image: "a3p.png"
+        },
+        {
+          title: this.$t("work.wiggle.title"),
+          description: this.$t("work.wiggle.bodyHTML"),
+          link: "https://wiggle.money",
+          image: "wiggle.png"
+        },
+        {
+          title: this.$t("work.crowdskills.title"),
+          description: this.$t("work.crowdskills.bodyHTML"),
+          link: "https://beta.crowdskills.com/",
+          image: "crowdskills.png"
+        },
+        {
+          title: this.$t("work.axiomzen.title"),
+          description: this.$t("work.axiomzen.bodyHTML"),
+          link: "https://axiomzen.co/",
+          image: "axiomzen.png"
         }
       ],
       team: [

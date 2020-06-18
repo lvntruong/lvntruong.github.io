@@ -91,7 +91,7 @@ const messages = {
       vien: {
         role: "Co-Founder, CEO",
         bio:
-          "Vien runs our ever-growing team of 15 developers in Da Nang and has over 5 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects.",
+          "Vien runs our ever-growing team of 20+ developers in Da Nang and has over 5 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects.",
       },
       thuytran: {
         role: "HR Admin",

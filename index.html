@@ -13,7 +13,6 @@
       name="keywords"
       content="Web development,Website development, website design, web dev, app development, offshore app development, cheap app development, cheap app design, offshore web development, fast web development, fast web design, vietnam developers, app developer vietnam, app development vietnam, app development asia, cheapest app development, progressive web app development cheap, react native, react developer, node developer, cheap react developer, cheap react development, development agency, 24h.dev, 24h.dev Tech, tech vietnam, cheap app, offshore app development vietnam, how much does an app cost, price of app, hybrid app development"
     />
-    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -51,24 +50,19 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
     <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
 
-    <!-- Google Tag Manager -->
-    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KLZFJFB');</script> -->
-    <!-- End Google Tag Manager -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150196093-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150196093-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-150196093-1');
+      gtag("config", "UA-150196093-1");
     </script>
-
   </head>
 
   <body>
@@ -76,7 +70,7 @@
     <!-- <noscript>
       <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLZFJFB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript> -->
-      <!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
     <div id="app">
       <nav id="nav" class="nav section">
         <div class="wrapper flex flex--between">
@@ -137,9 +131,7 @@
                   v-for="(item, index) in navigation"
                   :key="index"
                 >
-                  <a
-                    :href="item.link"
-                    @click="smoothScroll($event, item.link)"
+                  <a :href="item.link" @click="smoothScroll($event, item.link)"
                     >{{ item.title }}</a
                   >
                 </li>
@@ -351,7 +343,7 @@
               </button>
             </div>
           </div>
-          <div class="js-dynamic-height" style="align-items: center">
+          <div class="js-dynamic-height" style="align-items: center;">
             <div id="testimonials" class="testimonials">
               <h2 class="testimonials__title title title--section title--green">
                 {{ $t("testimonials.title") }}
@@ -422,15 +414,6 @@
             ></textarea>
 
             <div
-              class="g-recaptcha"
-              data-sitekey="6LdogJMUAAAAAIJwlsUMnlp-Zs617-JvoDTlWsQn"
-            ></div>
-
-            <p class="errorcaptcha" style="display: none; margin-top: 10px;">
-              Please check this captcha
-            </p>
-
-            <div
               class="contact-form__loader loader"
               v-if="isSending"
               style="margin-top: 10px;"
@@ -479,18 +462,18 @@
   </body>
 
   <!--Start of Tawk.to Script-->
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
       Tawk_LoadStart = new Date();
-    (function() {
+    (function () {
       var s1 = document.createElement("script"),
         s0 = document.getElementsByTagName("script")[0];
       s1.async = true;
-      s1.src = "https://embed.tawk.to/5c2c567d7a79fc1bddf2e944/default";
+      s1.src = "https://embed.tawk.to/5eeacf609e5f69442290ca0e/default";
       s1.charset = "UTF-8";
       s1.setAttribute("crossorigin", "*");
       s0.parentNode.insertBefore(s1, s0);
     })();
-  </script> -->
+  </script>
   <!--End of Tawk.to Script-->
 </html>

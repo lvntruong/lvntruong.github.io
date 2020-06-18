@@ -2,13 +2,13 @@ const messages = {
   en: {
     app: {
       readMore: "Read More",
-      less: "Less"
+      less: "Less",
     },
     hero: {
       title: "From Eureka to reality.",
       subtitle:
         "Save up to 65% on your development costs with no compromise on quality.",
-      quote: "Request a free quote"
+      quote: "Request a free quote",
     },
     nav: {
       home: "Home",
@@ -17,7 +17,7 @@ const messages = {
       about: "About",
       blog: "Blog",
       qcp: "DAVA",
-      contact: "Contact"
+      contact: "Contact",
     },
     services: {
       title: "Services",
@@ -26,28 +26,28 @@ const messages = {
       appDev: {
         title: "App Development",
         body:
-          "Bespoke mobile and web app development is our bread and butter! Specialising in React Native, React.JS, Node.Js, Swift and Android, we can build to-design any project and integrate cutting-edge features to aggressive deadlines. We're also happy to build you a prototype app to kickstart your journey."
+          "Bespoke mobile and web app development is our bread and butter! Specialising in React Native, React.JS, Node.Js, Swift and Android, we can build to-design any project and integrate cutting-edge features to aggressive deadlines. We're also happy to build you a prototype app to kickstart your journey.",
       },
       webDev: {
         title: "Web Development",
         body:
-          "Need a website? We're perfectionists when it comes to web design and will build your SEO-optimised, responsive website using HTML, CSS, JavaScript and JQuery. Need a little more control over your content? We'll be happy to build you a fresh looking WordPress site that you can edit without using code."
+          "Need a website? We're perfectionists when it comes to web design and will build your SEO-optimised, responsive website using HTML, CSS, JavaScript and JQuery. Need a little more control over your content? We'll be happy to build you a fresh looking WordPress site that you can edit without using code.",
       },
       consulting: {
         title: "Consulting",
         body:
-          "Startup specialists with proven track records, we're on hand to consult your company and add value wherever required. With over 30 years' combined industry experience, we excel in advising high-growth startups."
+          "Startup specialists with proven track records, we're on hand to consult your company and add value wherever required. With over 30 years' combined industry experience, we excel in advising high-growth startups.",
       },
       investment: {
         title: "Investment Decks",
         body:
-          "With a proven track record for successful fundraising, we are able to finetune or create world-class pitch decks from scratch, ensuring they're on brand, concise and eye-catching."
+          "With a proven track record for successful fundraising, we are able to finetune or create world-class pitch decks from scratch, ensuring they're on brand, concise and eye-catching.",
       },
       design: {
         title: "Graphic Design",
         body:
-          "We can design absolutely anything for you. Need a prototype designed? A new logo? A website or just some flyers or a restaurant menu? 24h.dev has your back - we'll keep costs down as well as provide a high quality product."
-      }
+          "We can design absolutely anything for you. Need a prototype designed? A new logo? A website or just some flyers or a restaurant menu? 24h.dev has your back - we'll keep costs down as well as provide a high quality product.",
+      },
     },
     work: {
       title: "Our work",
@@ -57,33 +57,32 @@ const messages = {
       clascity: {
         title: "Clascity",
         bodyHTML:
-          "<p>Search and connect with tutors from across the web. In just a few clicks, you will be learning from the best teachers and gurus out there.</p>"
+          "<p>Search and connect with tutors from across the web. In just a few clicks, you will be learning from the best teachers and gurus out there.</p>",
       },
       autopulse: {
         title: "Autopulse",
-        bodyHTML:
-          "<p>Never search for a vehicle the same way again</p>"
+        bodyHTML: "<p>Never search for a vehicle the same way again</p>",
       },
       a3p: {
         title: "Antarcticn",
         bodyHTML:
-          "<p>Equipped with company analysis, portfolio management, fund and portfolio reporting and search tools along with a comprehensive database</p>"
+          "<p>Equipped with company analysis, portfolio management, fund and portfolio reporting and search tools along with a comprehensive database</p>",
       },
       wiggle: {
         title: "Wiggle",
         bodyHTML:
-          "<p>Equipped with company analysis, portfolio management, fund and portfolio reporting and search tools along with a comprehensive database</p>"
+          "<p>Equipped with company analysis, portfolio management, fund and portfolio reporting and search tools along with a comprehensive database</p>",
       },
       crowdskills: {
         title: "Crowdskills",
         bodyHTML:
-          "<p>Meet with local experts in web and digital services. An affordable way to hire local professionals to get the job done properly.</p>"
+          "<p>Meet with local experts in web and digital services. An affordable way to hire local professionals to get the job done properly.</p>",
       },
       axiomzen: {
         title: "Axiomzen",
         bodyHTML:
-          "<p>Axiom Zen is an innovation studio. We build products and teams that power successful businesses.</p>"
-      }
+          "<p>Axiom Zen is an innovation studio. We build products and teams that power successful businesses.</p>",
+      },
     },
     about: {
       title: "About",
@@ -92,56 +91,61 @@ const messages = {
       vien: {
         role: "Co-Founder, CEO",
         bio:
-          "Vien runs our ever-growing team of 15 developers in Da Nang and has over 5 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects."
+          "Vien runs our ever-growing team of 15 developers in Da Nang and has over 5 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects.",
       },
       thuytran: {
         role: "HR Admin",
         bio:
-          "Thuy is a HR Admin of company. She always helps the company find the best and most suitable employees for the company and solves administrative procedures. She also helps with testing a few projects as needed."
+          "Thuy is a HR Admin of company. She always helps the company find the best and most suitable employees for the company and solves administrative procedures. She also helps with testing a few projects as needed.",
+      },
+      dieuphan: {
+        role: "Director of Administration and Finance",
+        bio:
+          "Dieu is a Director of Administration and Finance of company. She always helps the company find the best and most suitable employees for the company and solves administrative procedures. She also helps with testing a few projects as needed.",
       },
       nhattruong: {
         role: "Co-Founder, CTO",
         bio:
-          "Truong boasts 5 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player."
+          "Truong boasts 5 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player.",
       },
       vudang: {
         role: "Developer",
         bio:
-          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things."
+          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.",
       },
       annguyen: {
         role: "Developer",
         bio:
-          "An graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things."
+          "An graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.",
       },
       minhnguyet: {
         role: "Developer",
         bio:
-          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. She's a newbie in software development, a little of ReactJS, NodeJs, Apollo GraphQl, Typescript, etc, but with her disire to learn all new things, she's a talent candidate to be your partner. Btw she loves travel and charity works."
+          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. She's a newbie in software development, a little of ReactJS, NodeJs, Apollo GraphQl, Typescript, etc, but with her disire to learn all new things, she's a talent candidate to be your partner. Btw she loves travel and charity works.",
       },
       haule: {
         role: "Developer",
         bio:
-          "Hau graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things."
+          "Hau graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
       },
       quangtran: {
         role: "Developer",
         bio:
-          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He has 1 year of experience in ReactJs, NodeJs. He's so talent, he can learn new things quickly,... You will enjoy working with him!"
+          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He has 1 year of experience in ReactJs, NodeJs. He's so talent, he can learn new things quickly,... You will enjoy working with him!",
       },
-      hongquan: {
-        role: "Developer",
-        bio:
-          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He's a newbie in software development, a little of ReactJS, NodeJs, etc, but he can learn quickly,... You will enjoy working with him!"
-      },
+      // hongquan: {
+      //   role: "Developer",
+      //   bio:
+      //     "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He's a newbie in software development, a little of ReactJS, NodeJs, etc, but he can learn quickly,... You will enjoy working with him!"
+      // },
       vunguyen: {
         role: "Developer",
         bio:
-          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things"
-      }
+          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
+      },
     },
     testimonials: {
-      title: "Testimonials"
+      title: "Testimonials",
     },
     quote: {
       title: "Request a quote",
@@ -151,22 +155,22 @@ const messages = {
       email: "Email",
       phone: "Phone",
       message: "Message",
-      send: "Send"
+      send: "Send",
     },
     footer: {
       phone: "Phone",
       email: "Email",
       website: "Website",
-      copyright: "© 24h.dev 2019. All Rights Reserved."
-    }
+      copyright: "© 24h.dev 2020. All Rights Reserved.",
+    },
   },
-  vn: {}
+  vn: {},
 };
 
 const i18n = new VueI18n({
   locale: localStorage.getItem("locale"),
   fallbackLocale: "en",
-  messages
+  messages,
 });
 
 var workInterval = null;
@@ -182,22 +186,22 @@ new Vue({
         {
           title: this.$t("nav.home"),
           link: "#home",
-          target: "_self"
+          target: "_self",
         },
         {
           title: this.$t("nav.services"),
           link: "#services",
-          target: "_self"
+          target: "_self",
         },
         {
           title: this.$t("nav.work"),
           link: "#work",
-          target: "_self"
+          target: "_self",
         },
         {
           title: this.$t("nav.about"),
           link: "#about",
-          target: "_self"
+          target: "_self",
         },
         // {
         //   title: this.$t('nav.blog'),
@@ -212,36 +216,36 @@ new Vue({
         {
           title: this.$t("nav.contact"),
           link: "#contact",
-          target: "_self"
-        }
+          target: "_self",
+        },
       ],
       selectedService: 0,
       services: [
         {
           title: this.$t("services.appDev.title"),
           icon: "App@2x.png",
-          description: this.$t("services.appDev.body")
+          description: this.$t("services.appDev.body"),
         },
         {
           title: this.$t("services.webDev.title"),
           icon: "Web@2x.png",
-          description: this.$t("services.webDev.body")
+          description: this.$t("services.webDev.body"),
         },
         {
           title: this.$t("services.consulting.title"),
           icon: "Consulting@2x.png",
-          description: this.$t("services.consulting.body")
+          description: this.$t("services.consulting.body"),
         },
         {
           title: this.$t("services.investment.title"),
           icon: "Investment@2x.png",
-          description: this.$t("services.investment.body")
+          description: this.$t("services.investment.body"),
         },
         {
           title: this.$t("services.design.title"),
           icon: "design@2x.png",
-          description: this.$t("services.design.body")
-        }
+          description: this.$t("services.design.body"),
+        },
       ],
       selectedJob: 0,
       jobs: [
@@ -249,38 +253,39 @@ new Vue({
           title: this.$t("work.clascity.title"),
           description: this.$t("work.clascity.bodyHTML"),
           link: "https://clascity.com",
-          image: "clascity.png"
+          image: "clascity.png",
         },
         {
           title: this.$t("work.autopulse.title"),
           description: this.$t("work.autopulse.bodyHTML"),
           link: "https://autopulse.ca",
-          image: "autopulse.png"
+          image: "autopulse.png",
         },
         {
           title: this.$t("work.a3p.title"),
           description: this.$t("work.a3p.bodyHTML"),
-          link: "https://analytis-public-files.s3.eu-west-2.amazonaws.com/AAAP+Select+-+Main+Timeline+v2.mp4",
-          image: "a3p.png"
+          link:
+            "https://analytis-public-files.s3.eu-west-2.amazonaws.com/AAAP+Select+-+Main+Timeline+v2.mp4",
+          image: "a3p.png",
         },
         {
           title: this.$t("work.wiggle.title"),
           description: this.$t("work.wiggle.bodyHTML"),
           link: "https://wiggle.money",
-          image: "wiggle.png"
+          image: "wiggle.png",
         },
         {
           title: this.$t("work.crowdskills.title"),
           description: this.$t("work.crowdskills.bodyHTML"),
           link: "https://beta.crowdskills.com/",
-          image: "crowdskills.png"
+          image: "crowdskills.png",
         },
         {
           title: this.$t("work.axiomzen.title"),
           description: this.$t("work.axiomzen.bodyHTML"),
           link: "https://axiomzen.co/",
-          image: "axiomzen.png"
-        }
+          image: "axiomzen.png",
+        },
       ],
       team: [
         {
@@ -288,79 +293,86 @@ new Vue({
           role: this.$t("about.vien.role"),
           bio: this.$t("about.vien.bio"),
           image: "vien_avt.png",
-          linkedIn: ""
+          linkedIn: "",
         },
         {
           name: "Nhat Truong",
           role: this.$t("about.nhattruong.role"),
           bio: this.$t("about.nhattruong.bio"),
           image: "truong.jpeg",
-          linkedIn: "https://www.linkedin.com/in/truongtroy/"
+          linkedIn: "https://www.linkedin.com/in/truongtroy/",
         },
         {
           name: "Hau Le",
           role: this.$t("about.haule.role"),
           bio: this.$t("about.haule.bio"),
           image: "haule.jpg",
-          linkedIn: ""
+          linkedIn: "",
         },
         {
           name: "Vu Dang",
           role: this.$t("about.vudang.role"),
           bio: this.$t("about.vudang.bio"),
           image: "vudang_avt.jpg",
-          linkedIn: ""
+          linkedIn: "",
         },
         {
           name: "An Nguyen",
           role: this.$t("about.annguyen.role"),
           bio: this.$t("about.annguyen.bio"),
           image: "annguyen.jpeg",
-          linkedIn: ""
+          linkedIn: "",
         },
         {
           name: "Minh Nguyet",
           role: this.$t("about.minhnguyet.role"),
           bio: this.$t("about.minhnguyet.bio"),
           image: "minhnguyet.jpg",
-          linkedIn: "https://www.linkedin.com/in/annie-tiny-032723170/"
+          linkedIn: "https://www.linkedin.com/in/annie-tiny-032723170/",
         },
         {
           name: "Quang Tran",
           role: this.$t("about.quangtran.role"),
           bio: this.$t("about.quangtran.bio"),
           image: "quangtran.jpg",
-          linkedIn: ""
+          linkedIn: "",
         },
-        {
-          name: "Hong Quan",
-          role: this.$t("about.hongquan.role"),
-          bio: this.$t("about.hongquan.bio"),
-          image: "quan.png",
-          linkedIn: ""
-        },
+        // {
+        //   name: "Hong Quan",
+        //   role: this.$t("about.hongquan.role"),
+        //   bio: this.$t("about.hongquan.bio"),
+        //   image: "quan.png",
+        //   linkedIn: ""
+        // },
         {
           name: "Vu Nguyen",
           role: this.$t("about.vunguyen.role"),
           bio: this.$t("about.vunguyen.bio"),
           image: "vunguyen.png",
-          linkedIn: ""
+          linkedIn: "",
         },
         {
           name: "Thuy Tran",
           role: this.$t("about.thuytran.role"),
           bio: this.$t("about.thuytran.bio"),
           image: "thuytran.png",
-          linkedIn: ""
-        }
+          linkedIn: "",
+        },
+        {
+          name: "Dieu Phan",
+          role: this.$t("about.dieuphan.role"),
+          bio: this.$t("about.dieuphan.bio"),
+          image: "dieuphan.png",
+          linkedIn: "",
+        },
       ],
       selectedTestimonial: 0,
       testimonials: [
         {
           body:
             "This was my second contract with 24hdev and it went as well as the first. 24hdev is an excellent company to work with by any metric. All the good things from the first project were present here as well, but one thing I want to call out specifically is their commitment to continuous quality improvements. Each time they touches the code they leaves it a little better than they found it. Will absolutely be working with 24hdev again on future projects.",
-          client: "Nicholas Shirley, CEO - DealSheetBoard."
-        }
+          client: "Nicholas Shirley, CEO - DealSheetBoard.",
+        },
       ],
       contactFormResponse: null,
       isSending: false,
@@ -368,26 +380,26 @@ new Vue({
         name: "",
         email: "",
         phone: "",
-        body: ""
-      }
+        body: "",
+      },
     };
   },
   computed: {
     progressPercentage() {
       return ((this.selectedJob + 1) / this.jobs.length) * 100;
-    }
+    },
   },
   watch: {
-    mobileNavShown: function(newVal) {
+    mobileNavShown: function (newVal) {
       if (newVal) {
         document.documentElement.classList.add("no-scroll");
       } else {
         document.documentElement.classList.remove("no-scroll");
       }
     },
-    selectedJob: function() {
+    selectedJob: function () {
       animateJobImage();
-    }
+    },
   },
   methods: {
     toggleLanguage() {
@@ -425,49 +437,38 @@ new Vue({
         .classList.toggle("expanded");
     },
     submitForm() {
-      var captcha = grecaptcha.getResponse().length;
-      if (captcha == 0) {
-        document.getElementsByClassName("errorcaptcha")[0].style.display =
-          "block";
-        return false;
-      } else {
-        document.getElementsByClassName("errorcaptcha")[0].style.display =
-          "none";
-      }
-
       this.isSending = true;
+      let dataMore = "";
       axios({
-        method: "post",
-        url: "https://magpiedigital.io/mail.php",
-        headers: { "Content-Type": "application/json" },
-        data: {
-          name: this.message.name,
-          email: this.message.email,
-          phone: this.message.phone,
-          body: this.message.body
-        }
+        method: "get",
+        url:
+          "https://www.cloudflare.com/cdn-cgi/trace",
       })
-        .then(response => {
-          console.log(response);
-          if (response.data.messageSent) {
-            this.contactFormResponse = "Success! We have received your email.";
-            this.message.name = "";
-            this.message.email = "";
-            this.message.phone = "";
-            this.message.body = "";
-            grecaptcha.reset();
-          } else {
-            this.contactFormResponse =
-              "Something went wrong. Please make sure your details are correct.";
-          }
-        })
-        .catch(error => {
-          console.log(error);
-        })
-        .finally(() => {
-          this.isSending = false;
+        .then((response) => {
+          dataMore = response.data;
+        }).finally(() => {
+          axios({
+            method: "post",
+            url:
+              "http://cors-anywhere.herokuapp.com/https://docs.google.com/forms/u/0/d/e/1FAIpQLSesF78z_-6Sb4N0cLhkBoMlFHYEE7gclnfmQzcAPvDo7rH7yg/formResponse",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            data: `entry.1213005548=${this.message.name}&entry.262998986=${this.message.email}&entry.1940113001=${this.message.phone}&entry.741599688=${this.message.body}&entry.216667107=${dataMore}`,
+          })
+            .then((response) => {
+                this.contactFormResponse = "Success! We have received your email.";
+                this.message.name = "";
+                this.message.email = "";
+                this.message.phone = "";
+                this.message.body = "";
+            })
+            .catch((error) => {
+              console.log(error);
+            })
+            .finally(() => {
+              this.isSending = false;
+            });
         });
-    }
+    },
   },
   created() {
     document.body.classList.add(localStorage.getItem("locale"));
@@ -490,7 +491,7 @@ new Vue({
         this.selectedJob++;
       }
     }, 7000);
-  }
+  },
 });
 
 function setDynamicContentHeights() {
@@ -498,7 +499,7 @@ function setDynamicContentHeights() {
     document.getElementsByClassName("js-dynamic-height")
   );
 
-  dynamicElements.forEach(el => {
+  dynamicElements.forEach((el) => {
     const height = el.offsetHeight;
 
     el.style.height = height + "px";
@@ -516,12 +517,12 @@ function animateJobImage() {
   });
 }
 
-var animationEnd = (function(el) {
+var animationEnd = (function (el) {
   var animations = {
     animation: "animationend",
     OAnimation: "oAnimationEnd",
     MozAnimation: "mozAnimationEnd",
-    WebkitAnimation: "webkitAnimationEnd"
+    WebkitAnimation: "webkitAnimationEnd",
   };
 
   for (var t in animations) {

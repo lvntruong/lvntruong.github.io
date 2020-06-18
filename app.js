@@ -101,7 +101,7 @@ const messages = {
       dieuphan: {
         role: "Director of Administration and Finance",
         bio:
-          "Dieu is a Director of Administration and Finance of company. She always helps the company find the best and most suitable employees for the company and solves administrative procedures. She also helps with testing a few projects as needed.",
+          "Dieu is a Director of Administration and Finance of company. She will manage all financial, and administrative services and will provide strategic business guidance to further develop 24HDEV as a software development organization.",
       },
       nhattruong: {
         role: "Co-Founder, CTO",
@@ -111,12 +111,12 @@ const messages = {
       vudang: {
         role: "Developer",
         bio:
-          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.",
+          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 5 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.",
       },
       annguyen: {
         role: "Developer",
         bio:
-          "An graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.",
+          "An graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.",
       },
       minhnguyet: {
         role: "Developer",
@@ -126,7 +126,7 @@ const messages = {
       haule: {
         role: "Developer",
         bio:
-          "Hau graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
+          "Hau graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
       },
       quangtran: {
         role: "Developer",
@@ -141,7 +141,7 @@ const messages = {
       vunguyen: {
         role: "Developer",
         bio:
-          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 2 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
+          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 4 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
       },
     },
     testimonials: {
@@ -362,7 +362,7 @@ new Vue({
           name: "Dieu Phan",
           role: this.$t("about.dieuphan.role"),
           bio: this.$t("about.dieuphan.bio"),
-          image: "dieuphan.png",
+          image: "dieuphan.jpg",
           linkedIn: "",
         },
       ],

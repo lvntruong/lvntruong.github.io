@@ -161,7 +161,7 @@ const messages = {
       phone: "Phone",
       email: "Email",
       website: "Website",
-      copyright: "© 24h.dev 2020. All Rights Reserved.",
+      copyright: "© 24h.dev 2022. All Rights Reserved.",
     },
   },
   vn: {},

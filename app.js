@@ -450,7 +450,7 @@ new Vue({
           axios({
             method: "post",
             url:
-              "http://cors-anywhere.herokuapp.com/https://docs.google.com/forms/u/0/d/e/1FAIpQLSesF78z_-6Sb4N0cLhkBoMlFHYEE7gclnfmQzcAPvDo7rH7yg/formResponse",
+              "https://cors-24hdev.herokuapp.com/https://docs.google.com/forms/u/0/d/e/1FAIpQLSesF78z_-6Sb4N0cLhkBoMlFHYEE7gclnfmQzcAPvDo7rH7yg/formResponse",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             data: `entry.1213005548=${this.message.name}&entry.262998986=${this.message.email}&entry.1940113001=${this.message.phone}&entry.741599688=${this.message.body}&entry.216667107=${dataMore}`,
           })

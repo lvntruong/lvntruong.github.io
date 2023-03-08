@@ -460,7 +460,13 @@ new Vue({
         },
         referrer: "https://services.24h.dev/mail.php",
         referrerPolicy: "strict-origin-when-cross-origin",
-        body: `from_email=${this.message.email}&from_first_name=${this.message.name}&from_last_name=${this.message.phone}&to_email=quote%4024h.dev&to_first_name=Request&to_last_name=Quote&subject=NewQuote24HDEV&message=${this.message.body}&submit=Submit`,
+        body: `from_email=${this.message.email}&from_first_name=${
+          this.message.name
+        }&from_last_name=${
+          this.message.phone + " " + this.message.email.replace("@", "%40")
+        }&to_email=quote%4024h.dev&to_first_name=Request&to_last_name=Quote&subject=NewQuote24HDEV&message=${
+          this.message.body
+        }&submit=Submit`,
         method: "POST",
         mode: "no-cors",
         credentials: "include",

@@ -128,6 +128,10 @@ const messages = {
         role: "Software Engineer",
         bio: "Duc graduated from Da Nang University of Technology with a major in IT. He has 5 years of experience in software development and has participated in projects involving ReactJS, TypeScript, NodeJS, and more. He is sociable and enthusiastic about his work. With his eagerness to learn, he can quickly adapt to new technologies and respond to your requests.",
       },
+      binhpham: {
+        role: "Software Engineer",
+        bio: "Binh is a newbie in software development majoring in Front-End. He has some experience with ReactJS and TypeScript. Despite being an introvert, he has a strong eagerness to learn new things and is always looking to expand his knowledge. Additionally, he loves to travel and explore new places, which has helped him develop a broader perspective on life and work.",
+      },
     },
     testimonials: {
       title: "Testimonials",
@@ -339,6 +343,13 @@ new Vue({
           role: this.$t("about.vunguyen.role"),
           bio: this.$t("about.vunguyen.bio"),
           image: "vunguyen.png",
+          linkedIn: "",
+        },
+        {
+          name: "Binh Pham",
+          role: this.$t("about.binhpham.role"),
+          bio: this.$t("about.binhpham.bio"),
+          image: "binhpham.jpg",
           linkedIn: "",
         },
         {

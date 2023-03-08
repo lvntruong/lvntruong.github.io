@@ -439,34 +439,44 @@ new Vue({
     submitForm() {
       this.isSending = true;
       let dataMore = "";
-      axios({
-        method: "get",
-        url: "https://www.cloudflare.com/cdn-cgi/trace",
+      console.log("this.message", this.message);
+
+      fetch("https://services.24h.dev/mail.php", {
+        headers: {
+          accept:
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "accept-language": "en-US,en;q=0.9,vi;q=0.8",
+          "cache-control": "max-age=0",
+          "content-type": "application/x-www-form-urlencoded",
+          "sec-ch-ua":
+            '"Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"',
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": '"macOS"',
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "same-origin",
+          "sec-fetch-user": "?1",
+          "upgrade-insecure-requests": "1",
+        },
+        referrer: "https://services.24h.dev/mail.php",
+        referrerPolicy: "strict-origin-when-cross-origin",
+        body: `from_email=${this.message.email}&from_first_name=${this.message.name}&from_last_name=${this.message.phone}&to_email=quote%4024h.dev&to_first_name=Request&to_last_name=Quote&subject=NewQuote24HDEV&message=${this.message.body}&submit=Submit`,
+        method: "POST",
+        mode: "cors",
+        credentials: "include",
       })
         .then((response) => {
-          dataMore = response.data;
+          this.contactFormResponse = "Success! We have received your email.";
+          this.message.name = "";
+          this.message.email = "";
+          this.message.phone = "";
+          this.message.body = "";
+        })
+        .catch((error) => {
+          console.log(error);
         })
         .finally(() => {
-          axios({
-            method: "post",
-            url: "https://cors-24hdev.herokuapp.com/https://docs.google.com/forms/u/0/d/e/1FAIpQLSesF78z_-6Sb4N0cLhkBoMlFHYEE7gclnfmQzcAPvDo7rH7yg/formResponse",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            data: `entry.1213005548=${this.message.name}&entry.262998986=${this.message.email}&entry.1940113001=${this.message.phone}&entry.741599688=${this.message.body}&entry.216667107=${dataMore}`,
-          })
-            .then((response) => {
-              this.contactFormResponse =
-                "Success! We have received your email.";
-              this.message.name = "";
-              this.message.email = "";
-              this.message.phone = "";
-              this.message.body = "";
-            })
-            .catch((error) => {
-              console.log(error);
-            })
-            .finally(() => {
-              this.isSending = false;
-            });
+          this.isSending = false;
         });
     },
   },

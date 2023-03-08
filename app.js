@@ -79,10 +79,10 @@ const messages = {
     },
     about: {
       title: "About",
-      body: "Founded in 2018, 24h.dev is run by entrepreneurs with proven track records at C-level positions in successful tech startups. Based in Da Nang, with a growing team of over 15 Software Engineers, we’re delighted to be your guide from that Eureka moment to the reality of your new product. Meet just a few of the many key members of the team below:",
+      body: "Founded in 2018, 24h.dev is run by entrepreneurs with proven track records at C-level positions in successful tech startups. Based in Da Nang, with a growing team of over 40 Software Engineers, we’re delighted to be your guide from that Eureka moment to the reality of your new product. Meet just a few of the many key members of the team below:",
       vien: {
         role: "Co-Founder, CEO",
-        bio: "Vien runs our ever-growing team of 20+ Software Engineers in Da Nang and has over 5 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects.",
+        bio: "Vien runs our ever-growing team of 40+ Software Engineers in Da Nang and has over 10 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects.",
       },
       thuytran: {
         role: "HR Admin",
@@ -94,23 +94,23 @@ const messages = {
       },
       nhattruong: {
         role: "Co-Founder, CTO",
-        bio: "Truong boasts 5 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player.",
+        bio: "Truong boasts 10 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player.",
       },
       vudang: {
         role: "Software Engineer",
-        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 5 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.",
+        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 10 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.",
       },
       annguyen: {
         role: "Software Engineer",
-        bio: "An graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.",
+        bio: "An graduated from Da Nang University of Technology, majoring in IT. He has 10 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.",
       },
       nhatquang: {
         role: "Software Engineer",
-        bio: "Quang graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with ReactJs, Python, Django, etc. He is a sociable, open-minded, eager to learn new things.",
+        bio: "Quang graduated from Da Nang University of Technology, majoring in IT. He has 5 years of experience in software development and participated in projects with ReactJs, Python, Django, etc. He is a sociable, open-minded, eager to learn new things.",
       },
       haule: {
         role: "Software Engineer",
-        bio: "Hau graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
+        bio: "Hau graduated from Da Nang University of Technology, majoring in IT. He has 8 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
       },
       luantran: {
         role: "Software Engineer",
@@ -118,15 +118,15 @@ const messages = {
       },
       vinh: {
         role: "Software Engineer",
-        bio: "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. I has 3 years of experience in ReactJs, NodeJs, NextJS.",
+        bio: "An undergraduate student at Da Nang University of Science and Technology majoring in IT, he has 3 years of experience in ReactJS, NodeJS, and NextJS. During this time, he has worked on several projects that have helped him develop strong coding skills and knowledge of various front-end and back-end technologies.",
       },
       vunguyen: {
         role: "Software Engineer",
-        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 4 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
+        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 8 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
       },
       ducphan: {
         role: "Software Engineer",
-        bio: "Duc graduated from Da Nang University of Technology with a major in IT. He has 2 years of experience in software development and has participated in projects involving ReactJS, TypeScript, NodeJS, and more. He is sociable and enthusiastic about his work. With his eagerness to learn, he can quickly adapt to new technologies and respond to your requests.",
+        bio: "Duc graduated from Da Nang University of Technology with a major in IT. He has 5 years of experience in software development and has participated in projects involving ReactJS, TypeScript, NodeJS, and more. He is sociable and enthusiastic about his work. With his eagerness to learn, he can quickly adapt to new technologies and respond to your requests.",
       },
     },
     testimonials: {
@@ -331,7 +331,7 @@ new Vue({
           name: "Duc Phan",
           role: this.$t("about.ducphan.role"),
           bio: this.$t("about.ducphan.bio"),
-          image: "ducphan.png",
+          image: "ducphan.jpeg",
           linkedIn: "",
         },
         {

@@ -369,7 +369,7 @@
           </p>
           <form
             class="contact-form"
-            action="/"
+            action="https://services.24h.dev/mail.php"
             method="post"
             @submit.prevent="submitForm"
             autocomplete="off"
@@ -378,7 +378,7 @@
             <input
               class="input"
               type="text"
-              name="name"
+              name="from_first_name"
               :placeholder="$t('quote.fullName')"
               v-model="message.name"
               required
@@ -388,7 +388,7 @@
             <input
               class="input"
               type="email"
-              name="email"
+              name="from_email"
               :placeholder="$t('quote.email')"
               v-model="message.email"
               required
@@ -398,7 +398,7 @@
             <input
               class="input"
               type="tel"
-              name="phone"
+              name="from_last_name"
               :placeholder="$t('quote.phone')"
               v-model="message.phone"
             />
@@ -426,6 +426,11 @@
             >
               {{ contactFormResponse }}
             </div>
+            
+            <input type="hidden" v-model="message.to_email" name="to_email" value="quote@24h.dev">
+            <input type="hidden" v-model="message.to_first_name" name="to_first_name" value="Request">
+            <input type="hidden" v-model="message.to_last_name" name="to_last_name" value="Quote">
+            <input type="hidden" v-model="message.subject" name="subject" value="[New Request Quote]">
 
             <button class="button button--center" style="margin-top: 30px;">
               {{ $t("quote.send") }}

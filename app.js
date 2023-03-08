@@ -79,10 +79,10 @@ const messages = {
     },
     about: {
       title: "About",
-      body: "Founded in 2018, 24h.dev is run by entrepreneurs with proven track records at C-level positions in successful tech startups. Based in Da Nang, with a growing team of over 15 Software Engineers, we’re delighted to be your guide from that Eureka moment to the reality of your new product. Meet just a few of the many key members of the team below:",
+      body: "Founded in 2018, 24h.dev is run by entrepreneurs with proven track records at C-level positions in successful tech startups. Based in Da Nang, with a growing team of over 40 Software Engineers, we’re delighted to be your guide from that Eureka moment to the reality of your new product. Meet just a few of the many key members of the team below:",
       vien: {
         role: "Co-Founder, CEO",
-        bio: "Vien runs our ever-growing team of 20+ Software Engineers in Da Nang and has over 5 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects.",
+        bio: "Vien runs our ever-growing team of 40+ Software Engineers in Da Nang and has over 10 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects.",
       },
       thuytran: {
         role: "HR Admin",
@@ -94,36 +94,43 @@ const messages = {
       },
       nhattruong: {
         role: "Co-Founder, CTO",
-        bio: "Truong boasts 5 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player.",
+        bio: "Truong boasts 10 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player.",
       },
       vudang: {
         role: "Software Engineer",
-        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 5 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.",
+        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 10 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.",
       },
       annguyen: {
         role: "Software Engineer",
-        bio: "An graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.",
+        bio: "An graduated from Da Nang University of Technology, majoring in IT. He has 10 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.",
       },
       nhatquang: {
         role: "Software Engineer",
-        bio: "Quang graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with ReactJs, Python, Django, etc. He is a sociable, open-minded, eager to learn new things.",
+        bio: "Quang graduated from Da Nang University of Technology, majoring in IT. He has 5 years of experience in software development and participated in projects with ReactJs, Python, Django, etc. He is a sociable, open-minded, eager to learn new things.",
       },
       haule: {
         role: "Software Engineer",
-        bio: "Hau graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
+        bio: "Hau graduated from Da Nang University of Technology, majoring in IT. He has 8 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
       },
-      quangtran: {
+      luantran: {
         role: "Software Engineer",
-        bio: "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He has 1 year of experience in ReactJs, NodeJs. He's so talent, he can learn new things quickly,... You will enjoy working with him!",
+        bio: "He is a web developer with 3 years of experience in software development and has participated in projects using React, Vue, Golang, and MySQL. He actively seeks out new technologies and stays up-to-date with industry trends and advancements. He can provide clear code and a professional approach to his work. His hobbies include swimming and playing billiards.",
       },
-      // hongquan: {
-      //   role: "Software Engineer",
-      //   bio:
-      //     "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He's a newbie in software development, a little of ReactJS, NodeJs, etc, but he can learn quickly,... You will enjoy working with him!"
-      // },
+      vinh: {
+        role: "Software Engineer",
+        bio: "An undergraduate student at Da Nang University of Science and Technology majoring in IT, he has 3 years of experience in ReactJS, NodeJS, and NextJS. During this time, he has worked on several projects that have helped him develop strong coding skills and knowledge of various front-end and back-end technologies.",
+      },
       vunguyen: {
         role: "Software Engineer",
-        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 4 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
+        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 8 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
+      },
+      ducphan: {
+        role: "Software Engineer",
+        bio: "Duc graduated from Da Nang University of Technology with a major in IT. He has 5 years of experience in software development and has participated in projects involving ReactJS, TypeScript, NodeJS, and more. He is sociable and enthusiastic about his work. With his eagerness to learn, he can quickly adapt to new technologies and respond to your requests.",
+      },
+      binhpham: {
+        role: "Software Engineer",
+        bio: "Binh is a newbie in software development majoring in Front-End. He has some experience with ReactJS and TypeScript. Despite being an introvert, he has a strong eagerness to learn new things and is always looking to expand his knowledge. Additionally, he loves to travel and explore new places, which has helped him develop a broader perspective on life and work.",
       },
     },
     testimonials: {
@@ -269,14 +276,14 @@ new Vue({
       ],
       team: [
         {
-          name: "Luong Vien",
+          name: "Vien Nguyen",
           role: this.$t("about.vien.role"),
           bio: this.$t("about.vien.bio"),
           image: "vien_avt.png",
           linkedIn: "",
         },
         {
-          name: "Nhat Truong",
+          name: "Truong Le",
           role: this.$t("about.nhattruong.role"),
           bio: this.$t("about.nhattruong.bio"),
           image: "truong.jpeg",
@@ -310,25 +317,39 @@ new Vue({
           image: "nhatquang.jpg",
           linkedIn: "",
         },
-        // {
-        //   name: "Quang Tran",
-        //   role: this.$t("about.quangtran.role"),
-        //   bio: this.$t("about.quangtran.bio"),
-        //   image: "quangtran.jpg",
-        //   linkedIn: "",
-        // },
-        // {
-        //   name: "Hong Quan",
-        //   role: this.$t("about.hongquan.role"),
-        //   bio: this.$t("about.hongquan.bio"),
-        //   image: "quan.png",
-        //   linkedIn: ""
-        // },
+        {
+          name: "Luan Tran",
+          role: this.$t("about.luantran.role"),
+          bio: this.$t("about.luantran.bio"),
+          image: "luantran.png",
+          linkedIn: "",
+        },
+        {
+          name: "Vinh Pham",
+          role: this.$t("about.vinh.role"),
+          bio: this.$t("about.vinh.bio"),
+          image: "vinh.png",
+          linkedIn: "",
+        },
+        {
+          name: "Duc Phan",
+          role: this.$t("about.ducphan.role"),
+          bio: this.$t("about.ducphan.bio"),
+          image: "ducphan.jpeg",
+          linkedIn: "",
+        },
         {
           name: "Vu Nguyen",
           role: this.$t("about.vunguyen.role"),
           bio: this.$t("about.vunguyen.bio"),
           image: "vunguyen.png",
+          linkedIn: "",
+        },
+        {
+          name: "Binh Pham",
+          role: this.$t("about.binhpham.role"),
+          bio: this.$t("about.binhpham.bio"),
+          image: "binhpham.jpg",
           linkedIn: "",
         },
         {

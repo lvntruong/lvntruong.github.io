@@ -21,38 +21,31 @@ const messages = {
     },
     services: {
       title: "Services",
-      body:
-        "Breaking the mould of traditional software development labs, we're an outgoing bunch who offer a handful of bespoke services to ensure you're nothing but delighted with the outcome of your project, from Eureka to revenue.",
+      body: "Breaking the mould of traditional software development labs, we're an outgoing bunch who offer a handful of bespoke services to ensure you're nothing but delighted with the outcome of your project, from Eureka to revenue.",
       appDev: {
         title: "App Development",
-        body:
-          "Bespoke mobile and web app development is our bread and butter! Specialising in React Native, React.JS, Node.Js, Swift and Android, we can build to-design any project and integrate cutting-edge features to aggressive deadlines. We're also happy to build you a prototype app to kickstart your journey.",
+        body: "Bespoke mobile and web app development is our bread and butter! Specialising in React Native, React.JS, Node.Js, Swift and Android, we can build to-design any project and integrate cutting-edge features to aggressive deadlines. We're also happy to build you a prototype app to kickstart your journey.",
       },
       webDev: {
         title: "Web Development",
-        body:
-          "Need a website? We're perfectionists when it comes to web design and will build your SEO-optimised, responsive website using HTML, CSS, JavaScript and JQuery. Need a little more control over your content? We'll be happy to build you a fresh looking WordPress site that you can edit without using code.",
+        body: "Need a website? We're perfectionists when it comes to web design and will build your SEO-optimised, responsive website using HTML, CSS, JavaScript and JQuery. Need a little more control over your content? We'll be happy to build you a fresh looking WordPress site that you can edit without using code.",
       },
       consulting: {
         title: "Consulting",
-        body:
-          "Startup specialists with proven track records, we're on hand to consult your company and add value wherever required. With over 30 years' combined industry experience, we excel in advising high-growth startups.",
+        body: "Startup specialists with proven track records, we're on hand to consult your company and add value wherever required. With over 30 years' combined industry experience, we excel in advising high-growth startups.",
       },
       investment: {
         title: "Investment Decks",
-        body:
-          "With a proven track record for successful fundraising, we are able to finetune or create world-class pitch decks from scratch, ensuring they're on brand, concise and eye-catching.",
+        body: "With a proven track record for successful fundraising, we are able to finetune or create world-class pitch decks from scratch, ensuring they're on brand, concise and eye-catching.",
       },
       design: {
         title: "Graphic Design",
-        body:
-          "We can design absolutely anything for you. Need a prototype designed? A new logo? A website or just some flyers or a restaurant menu? 24h.dev has your back - we'll keep costs down as well as provide a high quality product.",
+        body: "We can design absolutely anything for you. Need a prototype designed? A new logo? A website or just some flyers or a restaurant menu? 24h.dev has your back - we'll keep costs down as well as provide a high quality product.",
       },
     },
     work: {
       title: "Our work",
-      body:
-        "We're passionate about creating beautiful work for our clients. Below you can see some examples of our creations. Contact us today for a quote.",
+      body: "We're passionate about creating beautiful work for our clients. Below you can see some examples of our creations. Contact us today for a quote.",
       website: "Website",
       clascity: {
         title: "Clascity",
@@ -86,62 +79,51 @@ const messages = {
     },
     about: {
       title: "About",
-      body:
-        "Founded in 2018, 24h.dev is run by entrepreneurs with proven track records at C-level positions in successful tech startups. Based in Da Nang, with a growing team of over 15 developers, we’re delighted to be your guide from that Eureka moment to the reality of your new product. Meet just a few of the many key members of the team below:",
+      body: "Founded in 2018, 24h.dev is run by entrepreneurs with proven track records at C-level positions in successful tech startups. Based in Da Nang, with a growing team of over 15 Software Engineers, we’re delighted to be your guide from that Eureka moment to the reality of your new product. Meet just a few of the many key members of the team below:",
       vien: {
         role: "Co-Founder, CEO",
-        bio:
-          "Vien runs our ever-growing team of 20+ developers in Da Nang and has over 5 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects.",
+        bio: "Vien runs our ever-growing team of 20+ Software Engineers in Da Nang and has over 5 years of web and app development and software engineer management to his team. He thoroughly enjoys interacting with clients and ensuring they're nothing but delighted with the outcome of their projects.",
       },
       thuytran: {
         role: "HR Admin",
-        bio:
-          "Thuy is a HR Admin of company. She always helps the company find the best and most suitable employees for the company and solves administrative procedures. She also helps with testing a few projects as needed.",
+        bio: "Thuy is a HR Admin of company. She always helps the company find the best and most suitable employees for the company and solves administrative procedures. She also helps with testing a few projects as needed.",
       },
       dieuphan: {
         role: "Director of Administration and Finance",
-        bio:
-          "Dieu is a Director of Administration and Finance of company. She will manage all financial, and administrative services and will provide strategic business guidance to further develop 24HDEV as a software development organization.",
+        bio: "Dieu is a Director of Administration and Finance of company. She will manage all financial, and administrative services and will provide strategic business guidance to further develop 24HDEV as a software development organization.",
       },
       nhattruong: {
         role: "Co-Founder, CTO",
-        bio:
-          "Truong boasts 5 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player.",
+        bio: "Truong boasts 5 years of experience in the IT industry and is a security expert, project manager extrordinaire and pretty good badminton player.",
       },
       vudang: {
-        role: "Developer",
-        bio:
-          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 5 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.",
+        role: "Software Engineer",
+        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 5 years of experience in software development and participated in projects with programming languages ​​such as java, php, js, golang ... Vu is a sociable, open-minded, eager to learn new things.",
       },
       annguyen: {
-        role: "Developer",
-        bio:
-          "An graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.",
+        role: "Software Engineer",
+        bio: "An graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... An is a sociable, open-minded, eager to learn new things.",
       },
-      minhnguyet: {
-        role: "Developer",
-        bio:
-          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. She's a newbie in software development, a little of ReactJS, NodeJs, Apollo GraphQl, Typescript, etc, but with her disire to learn all new things, she's a talent candidate to be your partner. Btw she loves travel and charity works.",
+      nhatquang: {
+        role: "Software Engineer",
+        bio: "Quang graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with ReactJs, Python, Django, etc. He is a sociable, open-minded, eager to learn new things.",
       },
       haule: {
-        role: "Developer",
-        bio:
-          "Hau graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
+        role: "Software Engineer",
+        bio: "Hau graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
       },
       quangtran: {
-        role: "Developer",
-        bio:
-          "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He has 1 year of experience in ReactJs, NodeJs. He's so talent, he can learn new things quickly,... You will enjoy working with him!",
+        role: "Software Engineer",
+        bio: "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He has 1 year of experience in ReactJs, NodeJs. He's so talent, he can learn new things quickly,... You will enjoy working with him!",
       },
       // hongquan: {
-      //   role: "Developer",
+      //   role: "Software Engineer",
       //   bio:
       //     "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He's a newbie in software development, a little of ReactJS, NodeJs, etc, but he can learn quickly,... You will enjoy working with him!"
       // },
       vunguyen: {
-        role: "Developer",
-        bio:
-          "Vu graduated from Da Nang University of Technology, majoring in IT. He has 4 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
+        role: "Software Engineer",
+        bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 4 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
       },
     },
     testimonials: {
@@ -149,8 +131,7 @@ const messages = {
     },
     quote: {
       title: "Request a quote",
-      body:
-        "Interested in hearing more about how 24h.dev can help you? We'd love to hear from you - get in touch via the contact form below or drop us a call at any time and we'll be on hand to discuss your project.",
+      body: "Interested in hearing more about how 24h.dev can help you? We'd love to hear from you - get in touch via the contact form below or drop us a call at any time and we'll be on hand to discuss your project.",
       fullName: "Full Name",
       email: "Email",
       phone: "Phone",
@@ -161,7 +142,7 @@ const messages = {
       phone: "Phone",
       email: "Email",
       website: "Website",
-      copyright: "© 24h.dev 2022. All Rights Reserved.",
+      copyright: "© 24h.dev 2023. All Rights Reserved.",
     },
   },
   vn: {},
@@ -264,8 +245,7 @@ new Vue({
         {
           title: this.$t("work.a3p.title"),
           description: this.$t("work.a3p.bodyHTML"),
-          link:
-            "https://analytis-public-files.s3.eu-west-2.amazonaws.com/AAAP+Select+-+Main+Timeline+v2.mp4",
+          link: "https://analytis-public-files.s3.eu-west-2.amazonaws.com/AAAP+Select+-+Main+Timeline+v2.mp4",
           image: "a3p.png",
         },
         {
@@ -324,19 +304,19 @@ new Vue({
           linkedIn: "",
         },
         {
-          name: "Minh Nguyet",
-          role: this.$t("about.minhnguyet.role"),
-          bio: this.$t("about.minhnguyet.bio"),
-          image: "minhnguyet.jpg",
-          linkedIn: "https://www.linkedin.com/in/annie-tiny-032723170/",
-        },
-        {
-          name: "Quang Tran",
-          role: this.$t("about.quangtran.role"),
-          bio: this.$t("about.quangtran.bio"),
-          image: "quangtran.jpg",
+          name: "Nhat Quang",
+          role: this.$t("about.nhatquang.role"),
+          bio: this.$t("about.nhatquang.bio"),
+          image: "nhatquang.jpg",
           linkedIn: "",
         },
+        // {
+        //   name: "Quang Tran",
+        //   role: this.$t("about.quangtran.role"),
+        //   bio: this.$t("about.quangtran.bio"),
+        //   image: "quangtran.jpg",
+        //   linkedIn: "",
+        // },
         // {
         //   name: "Hong Quan",
         //   role: this.$t("about.hongquan.role"),
@@ -369,8 +349,7 @@ new Vue({
       selectedTestimonial: 0,
       testimonials: [
         {
-          body:
-            "This was my second contract with 24hdev and it went as well as the first. 24hdev is an excellent company to work with by any metric. All the good things from the first project were present here as well, but one thing I want to call out specifically is their commitment to continuous quality improvements. Each time they touches the code they leaves it a little better than they found it. Will absolutely be working with 24hdev again on future projects.",
+          body: "This was my second contract with 24hdev and it went as well as the first. 24hdev is an excellent company to work with by any metric. All the good things from the first project were present here as well, but one thing I want to call out specifically is their commitment to continuous quality improvements. Each time they touches the code they leaves it a little better than they found it. Will absolutely be working with 24hdev again on future projects.",
           client: "Nicholas Shirley, CEO - DealSheetBoard.",
         },
       ],
@@ -441,25 +420,25 @@ new Vue({
       let dataMore = "";
       axios({
         method: "get",
-        url:
-          "https://www.cloudflare.com/cdn-cgi/trace",
+        url: "https://www.cloudflare.com/cdn-cgi/trace",
       })
         .then((response) => {
           dataMore = response.data;
-        }).finally(() => {
+        })
+        .finally(() => {
           axios({
             method: "post",
-            url:
-              "https://cors-24hdev.herokuapp.com/https://docs.google.com/forms/u/0/d/e/1FAIpQLSesF78z_-6Sb4N0cLhkBoMlFHYEE7gclnfmQzcAPvDo7rH7yg/formResponse",
+            url: "https://cors-24hdev.herokuapp.com/https://docs.google.com/forms/u/0/d/e/1FAIpQLSesF78z_-6Sb4N0cLhkBoMlFHYEE7gclnfmQzcAPvDo7rH7yg/formResponse",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             data: `entry.1213005548=${this.message.name}&entry.262998986=${this.message.email}&entry.1940113001=${this.message.phone}&entry.741599688=${this.message.body}&entry.216667107=${dataMore}`,
           })
             .then((response) => {
-                this.contactFormResponse = "Success! We have received your email.";
-                this.message.name = "";
-                this.message.email = "";
-                this.message.phone = "";
-                this.message.body = "";
+              this.contactFormResponse =
+                "Success! We have received your email.";
+              this.message.name = "";
+              this.message.email = "";
+              this.message.phone = "";
+              this.message.body = "";
             })
             .catch((error) => {
               console.log(error);

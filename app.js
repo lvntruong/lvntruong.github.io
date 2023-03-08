@@ -112,18 +112,21 @@ const messages = {
         role: "Software Engineer",
         bio: "Hau graduated from Da Nang University of Technology, majoring in IT. He has 3 years of experience in software development and participated in projects with react, ruby, rails, mongodb, mysql,postgresql ... Hau is a sociable, open-minded, eager to learn new things.",
       },
-      quangtran: {
+      luantran: {
         role: "Software Engineer",
-        bio: "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He has 1 year of experience in ReactJs, NodeJs. He's so talent, he can learn new things quickly,... You will enjoy working with him!",
+        bio: "He is a web developer with 3 years of experience in software development and has participated in projects using React, Vue, Golang, and MySQL. He actively seeks out new technologies and stays up-to-date with industry trends and advancements. He can provide clear code and a professional approach to his work. His hobbies include swimming and playing billiards.",
       },
-      // hongquan: {
-      //   role: "Software Engineer",
-      //   bio:
-      //     "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. He's a newbie in software development, a little of ReactJS, NodeJs, etc, but he can learn quickly,... You will enjoy working with him!"
-      // },
+      vinh: {
+        role: "Software Engineer",
+        bio: "An undergraduate student at Da Nang University of Science and Technology, majoring in IT. I has 3 years of experience in ReactJs, NodeJs, NextJS.",
+      },
       vunguyen: {
         role: "Software Engineer",
         bio: "Vu graduated from Da Nang University of Technology, majoring in IT. He has 4 years of experience in software development and participated in projects with react, apollo graphql, nextjs, nestjs, mongodb, mysql ... He is a sociable, open-minded, eager to learn new things",
+      },
+      ducphan: {
+        role: "Software Engineer",
+        bio: "Duc graduated from Da Nang University of Technology with a major in IT. He has 2 years of experience in software development and has participated in projects involving ReactJS, TypeScript, NodeJS, and more. He is sociable and enthusiastic about his work. With his eagerness to learn, he can quickly adapt to new technologies and respond to your requests.",
       },
     },
     testimonials: {
@@ -269,14 +272,14 @@ new Vue({
       ],
       team: [
         {
-          name: "Luong Vien",
+          name: "Vien Nguyen",
           role: this.$t("about.vien.role"),
           bio: this.$t("about.vien.bio"),
           image: "vien_avt.png",
           linkedIn: "",
         },
         {
-          name: "Nhat Truong",
+          name: "Truong Le",
           role: this.$t("about.nhattruong.role"),
           bio: this.$t("about.nhattruong.bio"),
           image: "truong.jpeg",
@@ -310,20 +313,27 @@ new Vue({
           image: "nhatquang.jpg",
           linkedIn: "",
         },
-        // {
-        //   name: "Quang Tran",
-        //   role: this.$t("about.quangtran.role"),
-        //   bio: this.$t("about.quangtran.bio"),
-        //   image: "quangtran.jpg",
-        //   linkedIn: "",
-        // },
-        // {
-        //   name: "Hong Quan",
-        //   role: this.$t("about.hongquan.role"),
-        //   bio: this.$t("about.hongquan.bio"),
-        //   image: "quan.png",
-        //   linkedIn: ""
-        // },
+        {
+          name: "Luan Tran",
+          role: this.$t("about.luantran.role"),
+          bio: this.$t("about.luantran.bio"),
+          image: "luantran.png",
+          linkedIn: "",
+        },
+        {
+          name: "Vinh Pham",
+          role: this.$t("about.vinh.role"),
+          bio: this.$t("about.vinh.bio"),
+          image: "vinh.png",
+          linkedIn: "",
+        },
+        {
+          name: "Duc Phan",
+          role: this.$t("about.ducphan.role"),
+          bio: this.$t("about.ducphan.bio"),
+          image: "ducphan.png",
+          linkedIn: "",
+        },
         {
           name: "Vu Nguyen",
           role: this.$t("about.vunguyen.role"),
